@@ -1,0 +1,223 @@
+
+/* Reset some default styles */
+html, body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  
+  header {
+    background-color: #1D1D1D;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  .salon{
+    color: aqua;
+  }
+  header h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    text-shadow: 5px 5px 4px rgba(41, 138, 160, 0.5);
+    margin-bottom: 0.5rem;
+  }
+ 
+  
+  nav ul {
+    float: right;
+    margin-top: -19px;
+    list-style:circle;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    border-bottom: 2px solid #b85a5a;
+  }
+  
+  #hero {
+    height: 100%;
+    width: 100%;
+    background-image: url('bg.jpg');
+    background-size:cover ;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+  }
+  span{
+    color: #27a227;
+    font-size: larger;
+    font-weight: 500;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero-content h2 {
+    color: rgb(248,248,255);
+    text-shadow: 5px 5px 4px rgba(66, 14, 14, 0.5);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    text-shadow: 5px 5px 4px rgba(13, 5, 5, 0.5);
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    border-radius: 10%;
+    border: solid white 2px;
+    display: inline-block;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #1F618D;
+  }
+  
+
+  /* -------------------------------- */
+  #services {
+    text-align: center;
+    padding: 4rem 0;
+  }
+  
+  #services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    
+  }
+  
+  .styles {
+    max-width: 100%;
+    box-shadow: 10px 10px 5px rgb(54, 61, 61);
+    
+
+  }
+  .styles:hover{
+    transition:  0.3s ease;
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 5px rgb(22, 197, 197);
+  }
+
+
+
+/* ---------------------------------------------------------- */
+ 
+#portfolio h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+
+}
+#portfolio p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+font-size: medium;
+}
+
+
+#portfolio img{
+    margin-left: 20px;
+    float: left;
+    width:400;height:500px;
+    margin-right:20px;
+    box-shadow: 5px 5px 5px 5px rgb(50, 60, 60,0.5);
+    
+}
+
+/* ------------------------------------------- */
+
+  #contact {
+    /* background-color: #c9c6c6; */
+    height: 100%;
+    width: 100%;
+    background-image: url('Untitled\ design.png');
+    background-size:cover ;
+    background-position: center;
+    text-align: center;
+    padding: 4rem 0;
+
+  }
+  
+  #contact h2 {
+    color: #131111;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 5px 5px 4px rgba(255, 255, 255, 0.5);
+  }
+ 
+  
+ 
+  /* ----------------------------- */
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    opacity: 0.7;
+    border-radius: 30%;
+  
+  }
+  
+  form .btn {
+    background: none;
+    margin-top: 1rem;
+    border: solid rgb(239, 245, 246) 2px;
+    background-color:black ;
+    opacity: 0.7;
+    font-size: larger;
+    
+
+  }
+
+  /* --------------------------------------------- */
+
+  footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #564444;
+    color: #fff;
+  }
+  
+  footer p {
+    font-size: small;
+  }
+  
